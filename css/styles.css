@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--header: hsl(94, 48%, 39%);
+	--clr-black: hsl(0, 0%, 0%);
+	--clr-white: hsl(0, 0%, 100%);
+	--footer: hsl(200, 69%, 27%);
+	--radius: 0.625rem;
+}
+
+/*====CONTAINER======*/
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+.container > * {
+	padding: 0.625rem;
+	margin: 0.625rem;
+	flex: 1 100%;
+	border-radius: var(--radius);
+}
+/*----HEADER----*/
+header {
+	background-color: var(--header);
+	text-align: center;
+}
