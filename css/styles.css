@@ -83,6 +83,19 @@ header {
 	border-radius: var(--radius);
 	box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
 }
+
+.box-4 {
+	background-color: hsl(353, 61%, 67%);
+	position: relative;
+	flex: 1;
+	align-items: center;
+	max-width: 25rem;
+	margin: 0.625rem;
+	line-height: 15rem;
+	text-align: center;
+	border-radius: var(--radius);
+	box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+}
 /*----FOOTER----*/
 footer {
 	flex: 1;
@@ -103,5 +116,9 @@ footer {
 	}
 	.box-3 {
 		flex: 100%;
+	}
+	.box-4 {
+		flex: 100%;
+		max-width: 50rem;
 	}
 }
