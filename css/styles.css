@@ -26,9 +26,11 @@ body {
 	display: flex;
 	flex-flow: row wrap;
 	text-align: center;
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 .container > * {
-	padding: 0.625rem;
 	margin: 0.625rem;
 	flex: 1 100%;
 	border-radius: var(--radius);
@@ -37,11 +39,10 @@ body {
 header {
 	background-color: var(--header);
 	color: var(--clr-white);
-	height: 4rem;
+	line-height: 8rem;
 }
 /*------ROW-----*/
 .row {
-	width: 100%;
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
